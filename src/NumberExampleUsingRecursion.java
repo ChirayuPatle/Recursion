@@ -8,6 +8,7 @@ public class NumberExampleUsingRecursion {
         if(n > 5){
             return;
         }
+
         System.out.println(n);
         number(n + 1);
     }
