@@ -27,7 +27,6 @@ public class ReverseNumber {
         return (rem * (int) Math.pow(10, digit-1)) + helper(n/10, digit -1);
     }
 
-
     public static void main(String[] args) {
         int n = 1234;
         // method 1
